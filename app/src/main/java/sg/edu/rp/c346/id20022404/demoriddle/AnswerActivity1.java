@@ -22,6 +22,7 @@ public class AnswerActivity1 extends AppCompatActivity {
         Intent intentReceived = getIntent();
         String questionsSelected = intentReceived.getStringExtra("Question");
         tvAnswer.setText(questionsSelected + " answer is: Queue");
+
     }
 
     @Override
